@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void main()
@@ -7,15 +7,15 @@ void main()
 	int Var1, Var2;
 	int result;
 
-	cout << "Ââåäèòå äâà ÷èñëà " << endl;
-	cout << "Ïåðâîå ÷èñëî: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð° " << endl;
+	cout << "ÐŸÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	cin >> Var1;
 	cout << endl;
-	cout << "Âòîðîå ÷èñëî: ";
+	cout << "Ð’Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	cin >> Var2;
 	cout << endl;
 
-	cout << " Âûáåðèòå îïåðàöèþ : Ñëîæåíèå(1), Âû÷èòàíèå(2), Óìíîæåíèå(3), Äåëåíèå(4)." << endl;
+	cout << " Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ : Ð¡Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ(1), Ð’Ñ‹Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸Ðµ(2), Ð£Ð¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ðµ(3), Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ(4)." << endl;
 
 	int a;
 	cin >> a;
@@ -24,34 +24,34 @@ void main()
 	{
 	    case 1:
 		   result = Var1 + Var2;
-		   cout << " Ðåçóëüòàò:" << result << endl;
+		   cout << " Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚:" << result << endl;
 		   break;
 
 		case 2:
 			result = Var1 - Var2;
-			cout << " Ðåçóëüòàò:" << result << endl;
+			cout << " Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚:" << result << endl;
 			break;
 
 		case 3:
 			result = Var1 * Var2;
-			cout << " Ðåçóëüòàò:" << result << endl;
+			cout << " Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚:" << result << endl;
 			break;
 
 		case 4:
 			if (Var2 == 0)
 			{
-				cout << " Äåëèòü íà íîëü íåëüçÿ." << endl;
+				cout << " Ð”ÐµÐ»Ð¸Ñ‚ÑŒ Ð½Ð° Ð½Ð¾Ð»ÑŒ Ð½ÐµÐ»ÑŒÐ·Ñ." << endl;
 				break;
 			}
 			else
 			{
 				result = Var1 / Var2;
-				cout << " Ðåçóëüòàò:" << result << endl;
+				cout << " Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚:" << result << endl;
 				break;
 			}
 
 		default:
-			cout << " Íåêîððåêòíûé ââîä." << endl;
+			cout << " ÐÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´." << endl;
 			break;
 	}
 
