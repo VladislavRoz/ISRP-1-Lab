@@ -85,16 +85,19 @@ void main()
 		  case 1:
 			  Var5 = Var3 + Var4;
 			  cout << " Результат:" << Var5 << endl;
+			  Var3 = Var5;
 			  break;
 
 		  case 2:
 			  Var5 = Var3 - Var4;
 			  cout << " Результат:" << Var5 << endl;
+			  Var3 = Var5;
 			  break;
 
 		  case 3:
 			  Var5 = Var3 * Var4;
 			  cout << " Результат:" << Var5 << endl;
+			  Var3 = Var5;
 			  break;
 
 		  case 4:
@@ -106,13 +109,15 @@ void main()
 			else
 			{
 				Var5 = Var3 / Var4;
-				cout << " Результат:" << Var4 << endl;
+				cout << " Результат:" << Var5 << endl;
+				Var3 = Var5;
 				break;
 			}
 
 		  case 5:
 			  Var5 = pow(Var3, Var4);
-			  cout << " Результат:" << Var3 << endl;
+			  cout << " Результат:" << Var5 << endl;
+			  Var3 = Var5;
 			  break;
 
 		  case 6:
